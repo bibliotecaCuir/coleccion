@@ -1,0 +1,18 @@
+coleccion:
+  nombre: "Colección de la Biblioteca Cuir"
+  version: "v0.0.1"
+
+  articulos:
+    - codigo: "BC-0001"
+      titulo: "Grafiar la trama"
+      autorxs: ["La liga tensa"]
+      editorial: ["Microutopías"]
+      agno: 2022
+      estado: "En colección"
+    
+    - codigo: "BC-0002"
+      titulo: "Terminal 10mg"
+      autorxs: ["Mexa"]
+      editorial: ["Edicoes Aurora"]
+      agno: 2018
+      estado: "En colección"
