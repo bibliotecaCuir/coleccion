@@ -4,7 +4,7 @@ coleccion:
 
   articulos:
     - codigo: "BC-0001"
-        
+      imagenes: ["00001.jpg"]  
       titulo: "Grafiar la trama"
       autorxs: ["La liga tensa"]
       editoriales: ["Microutopías"]

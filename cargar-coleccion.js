@@ -20,6 +20,35 @@ fetch('./coleccion.yaml')
                     itemDiv.innerHTML += `<p>${item.agno} </p>`;
                     // agregar estado
                     itemDiv.innerHTML += `<p>${item.estado} </p>`;
+                    // cargar imagen
+                    if (item.imagenes) {
+                        item.imagenes.forEach(async (imagen) => {
+                            const imgElement = document.createElement('img');
+                            imgElement.src = `./imagenes/${imagen}`;
+                            imgElement.alt = item.titulo;
+                            imgElement.className = "coleccion-imagen";
+                            itemDiv.appendChild(imgElement);
+                             // 🔥 WAIT for image to load, then resize
+                            imgElement.onload = () => {
+                                resizeImage(imgElement, 800, 0.6);
+                            };
+                        });
+                    }
                 });
             })
             .catch(error => console.error('Error al cargar el YAML:', error));
+
+
+function resizeImage(imgElement, maxWidth = 150, quality = 0.7) {
+  const lienzo = document.createElement("canvas");
+  const escala = maxWidth / imgElement.naturalWidth;
+
+  lienzo.width = maxWidth;
+  lienzo.height = imgElement.naturalHeight * escala;
+
+  const ctx = lienzo.getContext("2d");
+  ctx.drawImage(imgElement, 0, 0, lienzo.width, lienzo.height);
+
+  const compressed = lienzo.toDataURL("image/webp", quality);
+  imgElement.src = compressed;
+}
