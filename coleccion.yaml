@@ -6,13 +6,13 @@ coleccion:
     - codigo: "BC-0001"
       titulo: "Grafiar la trama"
       autorxs: ["La liga tensa"]
-      editorial: ["Microutopías"]
+      editoriales: ["Microutopías"]
       agno: 2022
       estado: "En colección"
     
     - codigo: "BC-0002"
       titulo: "Terminal 10mg"
       autorxs: ["Mexa"]
-      editorial: ["Edicoes Aurora"]
+      editoriales: ["Edicoes Aurora"]
       agno: 2018
       estado: "En colección"
