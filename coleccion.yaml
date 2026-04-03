@@ -4,6 +4,7 @@ coleccion:
 
   articulos:
     - codigo: "BC-0001"
+        
       titulo: "Grafiar la trama"
       autorxs: ["La liga tensa"]
       editoriales: ["Microutopías"]
@@ -11,6 +12,7 @@ coleccion:
       estado: "En colección"
     
     - codigo: "BC-0002"
+      imagenes: ["00002.jpg"]
       titulo: "Terminal 10mg"
       autorxs: ["Mexa"]
       editoriales: ["Edicoes Aurora"]
