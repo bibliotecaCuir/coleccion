@@ -18,3 +18,35 @@ coleccion:
       editoriales: ["Edicoes Aurora"]
       agno: 2018
       estado: "En colección"
+
+    - codigo: "BC-0003"
+      imagenes: ["00003.jpg"]
+      titulo: "os vestidos de Tiago"
+      autorxs: ["Joana Estrela"]
+      editoriales: ["Autopublicación Independiente"]
+      agno: 2019
+      estado: "En colección"
+
+    - codigo: "BC-0004"
+      imagenes: ["00004.jpg"]
+      titulo: "Después"
+      autorxs: ["Ilusión y fracaso"]
+      editoriales: ["Autopublicación Independiente"]
+      agno: 2019
+      estado: "En colección"
+
+    - codigo: "BC-0005"
+      imagenes: ["00005.jpg"]
+      titulo: "Poemas de y por Palestina"
+      autorxs: ["VVAA"]
+      editoriales: ["Otra sinceridad"]
+      agno: 2019
+      estado: "En colección"
+
+    - codigo: "BC-0006"
+      imagenes: ["00006.jpg"]
+      titulo: "A queer temporarity Fanzine"
+      autorxs: ["Ed. Zoe Claire", "Eva Wilson"]
+      editoriales: ["Autopublicación Independiente"]
+      agno: 2021
+      estado: "En colección"
